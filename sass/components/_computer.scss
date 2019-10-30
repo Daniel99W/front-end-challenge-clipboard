@@ -1,0 +1,27 @@
+.computer{
+    display:flex;
+    justify-content:space-between;
+    &__picture{
+        width:50%;
+        img{
+            width:100%;
+            
+        }
+    }
+    &__features{
+        margin-top:4.8rem;
+        &--item:not(:last-child){
+            margin-bottom:4rem;
+        }
+        &--item{
+            h1{
+                color:$color-dark-grayish-blue;
+                font-weight:600;
+            }
+            p{
+                color:$color-grayish-blue;
+            }
+            width:60%;
+        }
+    }
+}

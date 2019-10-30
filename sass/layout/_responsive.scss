@@ -1,0 +1,111 @@
+
+@media screen and(max-width:1024px){
+    .history{
+        .snippets{
+            h1{
+                width:100%;
+                text-align:center;
+            }
+        }
+    }
+    .computer{
+        display:flex;
+        flex-direction:column;
+        margin-bottom:0;
+        &__picture{
+            position:static;
+            display:block;
+            width:50%;
+            margin:auto;
+            img{
+                position:static;
+            }
+        }
+        &__features{
+            display:flex;
+            justify-content:center;
+            &--item{
+                text-align:center;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px){
+    .history{
+        &__buttons{
+            display:flex;
+            flex-direction:column;
+            &--green{
+                margin-bottom:.8rem;
+            }
+        }
+    }
+    .computer{
+        &__features{
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+        }
+    }
+    .supercharge{
+        &__items{
+            margin-bottom:3rem;
+        }
+        &__icons{
+            .icon{
+                img{
+                    width:80%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and(max-width:560px){
+    .history{
+        &__header{
+            font-size:1.5rem;
+        }
+        &__par{
+            width:100%;
+        }
+        &__buttons{
+            margin-bottom:2rem;
+        }
+        .snippets{
+            &__par{
+                width:100%;
+            }
+        }
+    }
+    .supercharge{
+        &__items{
+            display:flex;
+            flex-direction:column;
+            &--item{
+                width:90%;
+                margin-bottom:.9rem;
+            }
+        }
+        &__icons{
+            display:flex;
+            flex-direction:column;
+            align-items: center;
+            .icon{
+                width:90%;
+                text-align:center;
+            }
+        }
+    }
+    .clipboard{
+        &__header{
+            width:100%;
+        }
+    }
+    .footer {
+        & > *{
+            width:auto;
+        }
+    }
+}

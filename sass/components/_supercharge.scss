@@ -1,0 +1,33 @@
+.supercharge{
+    width:80%;
+    margin:5rem auto;
+    &__header{
+        h1{
+            color:$color-dark-grayish-blue;
+            font-weight: 600;
+        }
+        p{
+            color:$color-grayish-blue;
+        }
+        text-align:Center;
+    }
+    &__items{
+        display:flex;
+        align-items:center;
+        justify-content: space-between;
+        &--item{
+            width:30%;
+            text-align:center;
+            img,h3{
+                margin-bottom:1.5rem;
+            }
+        }
+    }
+    &__icons{
+        display:flex;
+        justify-content: space-between;
+        .icon{
+            width:19%;
+        }
+    }
+}

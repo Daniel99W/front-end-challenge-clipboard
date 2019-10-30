@@ -1,0 +1,19 @@
+
+.header{
+    height:40vh;
+    background-size:cover;
+    background-position:top;
+    background-image: url(../images/bg-header-desktop.png);
+    position:relative;
+    &__logo{
+        position:absolute;
+        top:70%;
+        left:50%;
+        transform: translate(-50%,-70%);
+        .logo{
+            width:6rem;
+            height:6rem;
+        }
+    }
+
+}
